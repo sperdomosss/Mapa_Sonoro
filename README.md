@@ -1,2 +1,3 @@
 # Mapa_Sonoro
-luego
+
+Proyecto mapa sonoro Lenguajes Digitales - Simón Perdomo Suárez
