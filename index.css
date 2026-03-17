@@ -1,17 +1,49 @@
 /*-------------------------------------------------------------------------------------*/
 
-/*Boilerplate CSS que me dió la IA*/
+/* Boilerplate + Estilo de la web con ayuda de Gemini (Uhuh, pues ni modo de que sepa CSS con tanto nivel) */
+/* Daaale, pues es que tocaba que se viera bonitoo! Igual toda la información de la web la hice yo */
 
-/* A simple CSS reset for consistency */
+/* Configuración de los márgenes */
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Ensures padding and borders are included in the element's total width and height */
 }
 
-/* Optional: additional base styles */
 body {
-    font-family: sans-serif;
-    line-height: 1.15;
+    /* Un fondo gris muy oscuro, casi negro, para que no canse la vista */
+    background-color: #1a1a1a; 
+    /* Un gris claro para el texto (el blanco puro a veces brilla mucho) */
+    color: #e0e0e0; 
+    /* Márgenes laterales para que el contenido no toque los bordes */
+    padding: 40px 10%;
+    /* Tipografía principal: moderna y limpia */
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
 }
+
+/* 2. Jerarquía de Títulos */
+h1 {
+    font-size: 3rem;
+    color: #00adb5; /* Un color turquesa vibrante para resaltar */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #eeeeee;
+    border-left: 5px solid #00adb5; /* Una línea decorativa al lado */
+    padding-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* 3. Estilo para el texto y párrafos */
+p {
+    margin-bottom: 20px;
+    font-weight: 300; /* Hace que la letra se vea más elegante y delgada */
+}
+
 /*-------------------------------------------------------------------------------------*/
