@@ -46,4 +46,132 @@ p {
     font-weight: 300; /* Hace que la letra se vea más elegante y delgada */
 }
 
+figure {
+    background-color: #252525; /* Un gris un poco más claro que el fondo */
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px 0;
+    border: 1px solid #333;
+    display: inline-block; /* Para que el cuadro se ajuste al tamaño de la imagen */
+}
+
+figure img {
+    border-radius: 4px;
+    max-width: 100%; /* Evita que la imagen se salga de la pantalla en celulares */
+    height: auto;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #00adb5; /* Usamos el color turquesa de tus títulos para la descripción */
+    text-align: center;
+    line-height: 1.4;
+}
+
+/* Estilos para el menú de navegación */
+.menu-navegacion {
+    background-color: #222;
+    padding: 15px 0;
+    position: sticky; /* Esto hace que el menú se quede "pegado" arriba al bajar */
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #00adb5;
+    margin-bottom: 30px;
+}
+
+.menu-navegacion ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.menu-navegacion a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.menu-navegacion a:hover {
+    color: #00adb5; /* El color brilla cuando pasas el mouse */
+}
+
+/* Truco extra: Desplazamiento suave */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilos para la Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #252525;
+    color: #e0e0e0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+th {
+    background-color: #00adb5;
+    color: #1a1a1a;
+}
+
+/* Estilos para el Aside */
+aside {
+    background-color: #393e46;
+    padding: 20px;
+    border-left: 4px solid #00adb5;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+/* Estilos para el Formulario */
+.formulario-sugerencia {
+    background-color: #252525;
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #00adb5;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #1a1a1a;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #00adb5;
+    color: #1a1a1a;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00fff2;
+}
 /*-------------------------------------------------------------------------------------*/
