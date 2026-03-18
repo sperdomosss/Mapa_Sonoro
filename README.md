@@ -1,3 +1,3 @@
 # Mapa_Sonoro
 
-Proyecto mapa sonoro Lenguajes Digitales - Simón Perdomo Suárez
+Proyecto Corte 2 / Lenguajes Digitales / Simón Perdomo Suárez
