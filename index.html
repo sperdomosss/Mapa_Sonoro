@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- Esto es simplemente para mejorar el renderizado -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mapa Sonoro</title>
     <link rel="stylesheet" href="index.css">
 </head>
@@ -15,94 +15,482 @@
 <!--------------------------------------------------------------------------------------->
 
 <body>
-    <h1>Mapa Sonoro</h1>
-    <p><em>/ Proyecto Corte 1 / Lenguajes Digitales / Simón Perdomo Suárez /</em></p>
-    <h3>Introducción al Proyecto</h3>
-    <p>
-        En esta web encontrarás la documentación completa del proyecto ¨Mapa Sonoro¨ elaborado en HTML junto con CSS.
-        <br>A continuación, podrás encontrar videos y audios relacionados con la vida cotidiana de un ciudadano, permítete sentir, vivir y experimentar al máximo de este proyecto. <em><strong>Cero afanes, solo escucha.</strong></em>
-        <br><em>(Se recomienda el uso de audífonos para esta experiencia)</em>
-    </p>
+    <header>
+        <h1>Mapa Sonoro</h1>
+        <p><em>Proyecto Corte 2 / Lenguajes Digitales / Simón Perdomo Suárez</em></p>
+    </header>
 
-    <!--Descripción general de todo el archivo-->
-    <div>
-        <h2>Descripción general de todo el archivo</h2>
-        <p>
-            En esta sección del documento encontrarás las descripciones completas sobre este proyecto:
-        </p>
+    <!-- TABLA DE NAVEGACION -->
+    <nav class="menu-navegacion">
         <ul>
-            <li>
-                <!-- AUDIOS -->
-                <h3>AUDIOS <em>(y dibujos)</em></h3>
-                <p>
-                    Los audios son un recurso importante a la hora de crear el mapa sonoro, ya que aumentan la inmersión de la experiencia, <em>estos audios fueron grabados por mí mismo a lo largo de la semana.</em>
-                    <br>En esta documentación en formato MP3 y OGG viene adjunto un listado de audios en los cuales se registran diferentes sonidos (Universidad, Ciudad, Cuerpo, Tecnología) que se tomaron a lo largo de la semana (12 audios en total). Además, el formato de estos audios debe ser individual por cada una de las 4 secciones que veremos a continuación, añadiendo que deben tener una duración entre 15 y 30 segundos.
-                     <em>Los <strong>audios</strong> se dividen en estas 4 secciones:</em>
-                    <ol>
-                        <!--Universidad-->
-                        <li><strong>Universidad</strong> <em>(3 audios):</em> <em>"Qué sonidos podrías captar en la Universidad que no se perciban en otras partes?"</em></li>
-                        <!--Ciudad-->
-                        <li><strong>Ciudad</strong> <em>(3 audios):</em> <em>"Qué sonidos podrías captar en la Ciudad que no se perciban en otras partes?"</em></li>
-                        <!--Cuerpo-->
-                        <li><strong>Cuerpo</strong> <em>(3 audios):</em> <em>"Qué sonidos podrías captar en tu propio cuerpo que no se perciban en otras partes?"</em></li>
-                        <!--Tecnologia-->
-                        <li><strong>Tecnología</strong> <em>(3 audios):</em><em>"Qué sonidos podrías captar en la Tecnología que no se perciban en otras partes?"</em></li>
-                    </ol>
-                </p>
-                <p>
-                    Por otra parte, los <strong>dibujos</strong> van de la mano con los audios, al escuchar cualquier cosa, tu cerebro relaciona los sonidos con cosas que ya has visto pero, <strong>y si llevamos esos conceptos a otro nivel?</strong> Experimenta los sonidos de una manera completamente diferente con estas ilustraciones.
-                    <br><em>(Las podrás encontrar al final de las descripciones de este proyecto)</em>
-                </p>
-            </li>
-            <li>
-                <!-- VIDEOS -->
-                <h3>VIDEOS</h3>
-                <p>
-                    Los videos son un recurso importante a la hora de crear el mapa sonoro, ya que permiten que lo auditivo y lo visual se integren en una sola experiencia, <em>estos videos fueron grabados por mí mismo a lo largo de la semana.</em>
-                    <br>Además, el formato para video debe ser individual por cada una de las 4 temáticas (Las cuatro secciones que veremos a continuación), añadiendo de que deben tener una duración entre 10 y 30 segundos por video. <em>Por otra parte, los <strong>videos</strong> van clasificados en 4 secciones:</em>
-                    <ol>
-                        <!--Gesto-->
-                        <li><strong>Gesto</strong> <em>(1 video):</em> <em>"Cómo comunicarías un sonido por medio de gestos corporales?"</em></li>
-                        <!--Recorrido-->
-                        <li><strong>Recorrido</strong> <em>(1 video):</em> <em>"Cómo comunicarías un sonido por medio de un recorrido por video?"</em></li>
-                        <!--Objeto-->
-                        <li><strong>Objeto</strong> <em>(1 video):</em> <em>"Cómo comunicarías un sonido por medio de un objeto por video?"</em></li>
-                        <!--Escena-->
-                        <li><strong>Escena</strong> <em>(1 video):</em> <em>"Cómo comunicarías un sonido por medio de una escena?"</em></li>
-                    </ol>
-                </p>
-                <p>
-                    <em>(Recuerda que los audios y los videos son secciones diferentes, las cuales vas a poder relacionar o no dependiendo de lo que desees)</em>
-                </p>
-            </li>
+            <li><a href="#introduccion">Inicio</a></li>
+            <li><a href="#descripcion-general">About Us</a></li>
+            <li><a href="#reproductores-audio">Audios y Dibujos</a></li>
+            <li><a href="#reproductores-video">Galería de Videos</a></li>
+            <li><a href="#contacto">Q&A</a></li>
         </ul>
-       
-    </div>
+    </nav>
 
-    <!--Descripción específica de los elementos-->
-    <div>
-        <h2>Descripción específica de los elementos</h2>
+    <main>
+        
+        <section id="introduccion">
+            <h2>Introducción al Proyecto</h2>
             <p>
-            En esta sección del documento encontrarás las descripciones específicas de los elementos de este proyecto:
-            <br><em>(Siéntete libre de echarles un vistazo a los proyectos, puede que alguno te llame la atención!)</em>
+                En esta web encontrarás la documentación completa del proyecto ¨Mapa Sonoro¨ elaborado en HTML junto con CSS.
+                <br>A continuación, podrás encontrar videos y audios relacionados con la vida cotidiana de un ciudadano, permítete sentir, vivir y experimentar al máximo de este proyecto. <em><strong>Cero afanes, solo escucha.</strong></em>
+                <br><em>(Se recomienda el uso de audífonos para esta experiencia)</em>
             </p>
-        <ul>
-            <!-- AUDIOS -->
-            <li>
-                <h3>AUDIOS <em>(y dibujos)</em></h3>
+        </section>
 
-            </li>
-            <!-- VIDEOS -->
-            <li>
-                <h3>VIDEOS</h3>
+        <section id="descripcion-general">
+            <h2>Descripción general de todo el archivo</h2>
+            <p>En esta sección del documento encontrarás las descripciones completas sobre este proyecto:</p>
+            
+            <!-- TABLA DE CONTENIDOS -->
+            <section id="tabla-registros">
+                <h3>Registro Técnico de Sonidos</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre del Sonido</th>
+                            <th>Lugar de Grabación</th>
+                            <th>Fecha</th>
+                            <th>Duración</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Basketball</td>
+                            <td>Universidad - Canchas</td>
+                            <td>13/03/2026</td>
+                            <td>0:16s</td>
+                        </tr>
+                        <tr>
+                            <td>Escaleras Eléctricas</td>
+                            <td>Universidad - Bloque A</td>
+                            <td>13/03/2026</td>
+                            <td>0:16s</td>
+                        </tr>
+                        <tr>
+                            <td>Madrugada</td>
+                            <td>Universidad - Entrada U Bosque</td>
+                            <td>17/03/2026</td>
+                            <td>0:16s</td>
+                        </tr>
+                        <tr>
+                            <td>Agua</td>
+                            <td>Ciudad - Fuente U Bosque</td>
+                            <td>13/03/2026</td>
+                            <td>0:16s</td>
+                        </tr>
+                        <tr>
+                            <td>Pasos y charcos</td>
+                            <td>Ciudad - Calle</td>
+                            <td>12/03/2026</td>
+                            <td>0:16s</td>
+                        </tr>
+                        <tr>
+                            <td>Hojas</td>
+                            <td>Ciudad - Calle</td>
+                            <td>11/03/2026</td>
+                            <td>0:16s</td>
+                        </tr>
+                        <tr>
+                            <td>"Bop"</td>
+                            <td>Casa - Mi cuarto</td>
+                            <td>15/03/2026</td>
+                            <td>0:16s</td>
+                        </tr>
+                        <tr>
+                            <td>"Crack"</td>
+                            <td>Casa - Mi cuarto</td>
+                            <td>15/03/2026</td>
+                            <td>0:16s</td>
+                        </tr>
+                        <tr>
+                            <td>Chasquido</td>
+                            <td>Casa - Mi cuarto</td>
+                            <td>15/03/2026</td>
+                            <td>0:16s</td>
+                        </tr>
+                        <tr>
+                            <td>Fuente</td>
+                            <td>Universidad - Entrada U Bosque</td>
+                            <td>13/03/2026</td>
+                            <td>0:16s</td>
+                        </tr>
+                        <tr>
+                            <td>Gimnasio</td>
+                            <td>CAF - U Bosque</td>
+                            <td>12/03/2026</td>
+                            <td>0:16s</td>
+                        </tr>
+                        <tr>
+                            <td>Ventilación</td>
+                            <td>Universidad - Bloque B</td>
+                            <td>13/03/2026</td>
+                            <td>0:16s</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <br>
 
-            </li>
-        </ul>
-    </div>
+            <!-- AUDIOS Y DIBUJOS -->
+            <ul>
+                <li>
+                    <article>
+                        <h3>AUDIOS <em>(y dibujos)</em></h3>
+                        <p>
+                            Los audios son un recurso importante a la hora de crear el mapa sonoro, ya que aumentan la inmersión de la experiencia, <em>estos audios fueron grabados por mí mismo a lo largo de la semana.</em>
+                            <br>En esta documentación en formato MP3 y OGG viene adjunto un listado de audios en los cuales se registran diferentes sonidos (Universidad, Ciudad, Cuerpo, Tecnología) que se tomaron a lo largo de la semana (12 audios en total). Además, el formato de estos audios debe ser individual por cada una de las 4 secciones que veremos a continuación, añadiendo que deben tener una duración entre 15 y 30 segundos.
+                            <br><em>Los <strong>audios</strong> se dividen en estas 4 secciones:</em>
+                        </p>
+                        <ol>
+                            <!--Universidad-->
+                            <li><strong>Universidad</strong> <em>(3 audios):</em> <em>"Qué sonidos podrías captar en la Universidad que no se perciban en otras partes?"</em></li>
+                            <!--Ciudad-->
+                            <li><strong>Ciudad</strong> <em>(3 audios):</em> <em>"Qué sonidos podrías captar en la Ciudad que no se perciban en otras partes?"</em></li>
+                            <!--Cuerpo-->
+                            <li><strong>Cuerpo</strong> <em>(3 audios):</em> <em>"Qué sonidos podrías captar en tu propio cuerpo que no se perciban en otras partes?"</em></li>
+                            <!--Tecnologia-->
+                            <li><strong>Tecnología</strong> <em>(3 audios):</em><em>"Qué sonidos podrías captar en la Tecnología que no se perciban en otras partes?"</em></li>
+                        </ol>
+                        <p>
+                            Por otra parte, los <strong>dibujos</strong> van de la mano con los audios, al escuchar cualquier cosa, tu cerebro relaciona los sonidos con cosas que ya has visto pero, <strong>y si llevamos esos conceptos a otro nivel?</strong> Experimenta los sonidos de una manera completamente diferente con estas ilustraciones.
+                            <br><em>(Las podrás encontrar al final de las descripciones de este proyecto)</em>
+                        </p>
+                    </article>
+                </li>
 
-    <p></p>
-    <p></p>
+                <li>
+                    <article>
+                        <h3>VIDEOS</h3>
+                        <p>
+                            Los videos son un recurso importante a la hora de crear el mapa sonoro, ya que permiten que lo auditivo y lo visual se integren en una sola experiencia, <em>estos videos fueron grabados por mí mismo a lo largo de la semana.</em>
+                            <br>Además, el formato para video debe ser individual por cada una de las 4 temáticas (Las cuatro secciones que veremos a continuación), añadiendo de que deben tener una duración entre 10 y 30 segundos por video. <em>Por otra parte, los <strong>videos</strong> van clasificados en 4 secciones:</em>
+                        </p>
+                        <ol>
+                            <!--Gesto-->
+                            <li><strong>Gesto</strong> <em>(1 video):</em> <em>"Cómo comunicarías un sonido por medio de gestos corporales?"</em></li>
+                            <!--Recorrido-->
+                            <li><strong>Recorrido</strong> <em>(1 video):</em> <em>"Cómo comunicarías un sonido por medio de un recorrido por video?"</em></li>
+                            <!--Objeto-->
+                            <li><strong>Objeto</strong> <em>(1 video):</em> <em>"Cómo comunicarías un sonido por medio de un objeto por video?"</em></li>
+                            <!--Escena-->
+                            <li><strong>Escena</strong> <em>(1 video):</em> <em>"Cómo comunicarías un sonido por medio de una escena?"</em></li>
+                        </ol>
+                        <p>
+                            <em>(Recuerda que los audios y los videos son secciones diferentes, las cuales vas a poder relacionar o no dependiendo de lo que desees)</em>
+                        </p>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <!-- DESCRIPCION ESPECIFICA -->
+        <section id="descripcion-especifica">
+            <h2>Descripción específica de los elementos</h2>
+            <p>
+                En esta sección encontrarás las descripciones específicas de los elementos de este proyecto:
+                <br><em>(Siéntete libre de echarles un vistazo a los proyectos, puede que alguno te llame la atención!)</em>
+            </p>
+            
+            <!-- REPRODUCTORES AUDIO -->
+            <article id="reproductores-audio">
+                <hr><br><h3>AUDIOS <em>(y dibujos)</em></h3><br>
+                <div class="reproductor">
+
+                    <!-- UNIVERSIDAD ------------------------------------------------------------>
+                    <!-- UNI - BASKET -->
+                    <h4>Universidad - Basketball</h4>
+                    <p><em>"No hay nada mejor que ver un partido de basketball un viernes por la tarde..."</em></p>
+                    <audio controls loop>
+                        <source src="audios_vids/audios nuevo/ballinmp3.mp3" type="audio/mpeg">
+                        <source src="audios_vids/audios nuevo/ballinogg.ogg" type="audio/ogg">
+                    </audio>
+                    <br>
+                    <figure>
+                        <img src="audios_vids/img/basket.jpeg" alt="Representación visual del sonido del basketball" width="300">
+                        <figcaption>
+                            <strong>Interpretación visual:</strong> Rebotes huecos y secos que se repiten una y otra vez.
+                        </figcaption>
+                    </figure><br>
+
+                    <!-- UNI - ESCALERAS -->
+                    <br><h4>Universidad - Escaleras Eléctricas</h4>
+                    <p><em>"El agotamiento de subir piso tras piso se deja de sentir al alzar la vista y contemplar el paisaje..."</em></p>
+                    <audio controls loop>
+                        <source src="audios_vids/audios nuevo/stairsmp3.mp3" type="audio/mpeg">
+                        <source src="audios_vids/audios nuevo/stairsogg.ogg" type="audio/ogg">
+                    </audio>
+                    <br>
+                    <figure>
+                        <img src="audios_vids/img/stairs.jpeg" alt="Representación visual del sonido de las escaleras" width="300">
+                        <figcaption>
+                            <strong>Interpretación visual:</strong> Escaleras huecas y estáticas que resuenan entre las voces del ambiente.
+                        </figcaption>
+                    </figure><br>
+
+                    <!-- UNI - MADRUGADA -->
+                    <br><h4>Universidad - Madrugada</h4>
+                    <p><em>"Incluso con el frío de la mañana, el canto de los pájaros te abraza cálidamente..."</em></p>
+                    <audio controls loop>
+                        <source src="audios_vids/audios nuevo/birdsmp3.mp3" type="audio/mpeg">
+                        <source src="audios_vids/audios nuevo/birdsogg.ogg" type="audio/ogg">
+                    </audio>
+                    <br>
+                    <figure>
+                        <img src="audios_vids/img/birds.jpeg" alt="Representación visual del sonido de los pajaritos" width="300">
+                        <figcaption>
+                            <strong>Interpretación visual:</strong> Ondas que contrastan en medio del silencio.
+                        </figcaption>
+                    </figure><br>
+
+                    <!-- CIUDAD ------------------------------------------------------------>
+                    <!-- CIUDAD - AGUA -->
+                    <hr><br><h4>Ciudad - Agua</h4>
+                    <p><em>"El sonido del agua que va y viene de un lado hacia el otro te termina hipnotizando..."</em></p>
+                    <audio controls loop>
+                        <source src="audios_vids/audios nuevo/watermp3.mp3" type="audio/mpeg">
+                        <source src="audios_vids/audios nuevo/waterogg.ogg" type="audio/ogg">
+                    </audio>
+                    <br>
+                    <figure>
+                        <img src="audios_vids/img/water.jpeg" alt="Representación visual del sonido del agua" width="300">
+                        <figcaption>
+                            <strong>Interpretación visual:</strong> Remolinos que van y vienen mientras chocan entre sí.
+                        </figcaption>
+                    </figure><br>
+
+                    <!-- CIUDAD - PASOS Y CHARCOS -->
+                    <br><h4>Ciudad - Pasos y charcos</h4>
+                    <p><em>"La ropa mojada no es impedimento para volver a ser feliz..."</em></p>
+                    <audio controls loop>
+                        <source src="audios_vids/audios nuevo/spashnstepsmp3.mp3" type="audio/mpeg">
+                        <source src="audios_vids/audios nuevo/spashnstepsogg.ogg" type="audio/ogg">
+                    </audio>
+                    <br>
+                    <figure>
+                        <img src="audios_vids/img/spash.jpeg" alt="Representación visual del sonido de los charcos" width="300">
+                        <figcaption>
+                            <strong>Interpretación visual:</strong> Un golpe en seco que debería ser fluido.
+                        </figcaption>
+                    </figure><br>
+
+                    <!-- CIUDAD - HOJAS -->
+                    <br><h4>Ciudad - Hojas</h4>
+                    <p><em>"Escuchar el sonido de las hojas al moverse con el viento te da ganas de bailar junto a ellas..."</em></p>
+                    <audio controls loop>
+                        <source src="audios_vids/audios nuevo/leavesmp3.mp3" type="audio/mpeg">
+                        <source src="audios_vids/audios nuevo/leavesogg.ogg" type="audio/ogg">
+                    </audio>
+                    <br>
+                    <figure>
+                        <img src="audios_vids/img/leaves.jpeg" alt="Representación visual del sonido de las hojas" width="300">
+                        <figcaption>
+                            <strong>Interpretación visual:</strong> Fluidez en medio de la brisa.
+                        </figcaption>
+                    </figure><br>
+
+                    <!-- CUERPO ------------------------------------------------------------>
+                    <!-- CUERPO - BUBBLES -->
+                    <hr><br><h4>Cuerpo - "Bop""</h4>
+                    <p><em>"Te sientes como un niño pequeño haciendo esto, aún así no puedes parar..."</em></p>
+                    <audio controls loop>
+                        <source src="audios_vids/audios nuevo/bubblesmp3.mp3" type="audio/mpeg">
+                        <source src="audios_vids/audios nuevo/bubblesogg.ogg" type="audio/ogg">
+                    </audio>
+                    <br>
+                    <figure>
+                        <img src="audios_vids/img/bop.jpeg" alt="Representación visual del sonido corporal" width="300">
+                        <figcaption>
+                            <strong>Interpretación visual:</strong> Un estallido vacío extrañamente satisfactorio.
+                        </figcaption>
+                    </figure><br>
+
+                    <!-- CUERPO - CRACKING -->
+                    <br><h4>Cuerpo - "Crack"</h4>
+                    <p><em>"No puedes resistirte a hacer tronar tu cuerpo, verdad?..."</em></p>
+                    <audio controls loop>
+                        <source src="audios_vids/audios nuevo/crackinmp3.mp3" type="audio/mpeg">
+                        <source src="audios_vids/audios nuevo/crackinogg.ogg" type="audio/ogg">
+                    </audio>
+                    <br>
+                    <figure>
+                        <img src="audios_vids/img/crack.jpeg" alt="Representación visual del sonido corporal" width="300">
+                        <figcaption>
+                            <strong>Interpretación visual:</strong> Tronadas bruscas pero suaves.
+                        </figcaption>
+                    </figure><br>
+
+                    <!-- CUERPO - SNAP -->
+                    <br><h4>Cuerpo - Chasquido</h4>
+                    <p><em>"Con música o sin ella, siempre terminarás creando una melodía..."</em></p>
+                    <audio controls loop>
+                        <source src="audios_vids/audios nuevo/snapmp3.mp3" type="audio/mpeg">
+                        <source src="audios_vids/audios nuevo/snapogg.ogg" type="audio/ogg">
+                    </audio>
+                    <br>
+                    <figure>
+                        <img src="audios_vids/img/snap.jpeg" alt="Representación visual del sonido corporal" width="300">
+                        <figcaption>
+                            <strong>Interpretación visual:</strong> Un golpe agudo y hueco en medio de la atmósfera.
+                        </figcaption>
+                    </figure><br>
+
+                    <!-- TECNOLOGíA ------------------------------------------------------------>
+                    <!-- TECNOLOGíA - FUENTE -->
+                    <hr><br><h4>Tecnología - Fuente</h4>
+                    <p><em>"Sus gotas golpeando el agua con fuerza te generan ganas de meterte..."</em></p>
+                    <audio controls loop>
+                        <source src="audios_vids/audios nuevo/fountainmp3.mp3" type="audio/mpeg">
+                        <source src="audios_vids/audios nuevo/fountainogg.ogg" type="audio/ogg">
+                    </audio>
+                    <br>
+                    <figure>
+                        <img src="audios_vids/img/fountain.jpeg" alt="Representación visual del sonido de una fuente" width="300">
+                        <figcaption>
+                            <strong>Interpretación visual:</strong> Miles de gotas chocando mientras fluyen simultáneamente.
+                        </figcaption>
+                    </figure><br>
+
+                    <!-- TECNOLOGíA - GIMNASIO -->
+                    <br><h4>Tecnología - Gimnasio</h4>
+                    <p><em>"Admítelo, prefieres quedarte en casa..."</em></p>
+                    <audio controls loop>
+                        <source src="audios_vids/audios nuevo/gymmp3.mp3" type="audio/mpeg">
+                        <source src="audios_vids/audios nuevo/gymogg.ogg" type="audio/ogg">
+                    </audio>
+                    <br>
+                    <figure>
+                        <img src="audios_vids/img/gym.jpeg" alt="Representación visual del sonido de una maquina del gimnasio" width="300">
+                        <figcaption>
+                            <strong>Interpretación visual:</strong> Un pitido agudo pero brusco.
+                        </figcaption>
+                    </figure><br>
+
+                    <!-- TECNOLOGíA - VENTILACION -->
+                    <br><h4>Tecnología - Ventilación</h4>
+                    <p><em>"Algo dentro de este sonido te genera desconfianza..."</em></p>
+                    <audio controls loop>
+                        <source src="audios_vids/audios nuevo/ventilationmp3.mp3" type="audio/mpeg">
+                        <source src="audios_vids/audios nuevo/ventilationogg.ogg" type="audio/ogg">
+                    </audio>
+                    <br>
+                    <figure>
+                        <img src="audios_vids/img/vent.jpeg" alt="Representación visual del sonido de la ventilacion" width="300">
+                        <figcaption>
+                            <strong>Interpretación visual:</strong> Un sonido artificial constante.
+                        </figcaption>
+                    </figure><br>
+
+                </div>
+            </article>
+
+            <article id="reproductores-video">
+                <hr><br><h3>VIDEOS</h3>
+                <div class="reproductor">
+                    <!-- GESTO CORPORAL -->
+                    <h4>Gesto Corporal</h4>
+                    <p><em>"A veces solo debes dejarte llevar por tu mente,
+                        <br>Fluye como las olas con el viento,
+                        <br>Danza al ritmo de las hojas con la lluvia..."</em></p>
+                    <video controls width="320">
+                        <source src="audios_vids/Gesto/siloette vid.mp4" type="video/mp4">
+                    </video>
+
+                    <!-- RECORRIDO -->
+                    <hr><br><h4>Recorrido</h4>
+                    <p><em>"Un paseo de vez en cuando no sienta mal,
+                        <br>La música inunda el ambiente,
+                        <br>No tienes que preocuparte por nada..."</em></p>
+                    <video controls width="640">
+                        <source src="audios_vids/Recorrido/carro vid.mp4" type="video/mp4">
+                    </video>
+
+                    <!-- OBJETO -->
+                    <hr><br><h4>Objeto</h4>
+                    <p><em>"Sientes como los latidos de tu corazón comienzan a alinearse con tus pasos,
+                        <br>El golpeteo incesante de unos pasos que se acercan,
+                        <br>La sensación de proximidad creciente..."</em></p>
+                    <video controls width="640">
+                        <source src="audios_vids/Objeto/circles vid.mp4" type="video/mp4">
+                    </video>
+
+                    <!-- ESCENA -->
+                    <hr><br><h4>Escena</h4>
+                    <p><em>"Una pausa después de una jornada ajetreada puede cambiarte el día
+                        <br>La sensación de tus músculos al estirarse,
+                        <br>El anhelo de volver a sentir calma..."</em></p>
+                    <video controls width="320">
+                        <source src="audios_vids/Escena/yucas vid.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </article>
+        </section>
+
+        <!-- FORMULARIO -->
+        <section id="contacto">
+            <h2>Sugerir un nuevo sonido</h2>
+            <p>¿Crees que falta algún sonido importante en este mapa? ¡Cuéntanos!</p>
+    
+            <form action="#" method="post" class="formulario-sugerencia">
+                <div class="campo">
+                    <label for="nombre-sonido">Nombre del sonido sugerido:</label>
+                    <input type="text" id="nombre-sonido" name="nombre-sonido" placeholder="Ej: Lluvia en el tejado" required>
+                </div>
+
+                <div class="campo">
+                    <label for="categoria">Categoría:</label>
+                    <input type="text" id="categoria" name="categoria" list="categorias-existentes">
+                    <datalist id="categorias-existentes">
+                        <option value="Universidad">
+                        <option value="Ciudad">
+                        <option value="Cuerpo">
+                        <option value="Tecnología">
+                    </datalist>
+                </div>
+
+                <div class="campo">
+                    <label for="descripcion">¿Por qué deberíamos incluirlo?:</label>
+                    <textarea id="descripcion" name="descripcion" rows="4" placeholder="Describe el contexto del sonido..."></textarea>
+                </div>
+
+                <button type="submit">Enviar Sugerencia</button>
+            </form>
+        </section>
+        
+    </main>
+
+    <!-- ASIDE -->
+    <section id="info-extra">
+        <br><hr><br>
+        <h3>Notas del Autor</h3>
+        <p>En esta pequeña sección vas a encontrar información que seguramente no conocías acerca del "Mapa Sonoro".</p>
+    
+        <aside>
+            <h4>Fun Fact</h4>
+            <p>Este proyecto fue elaborado en menos de 2 semanas, gracias al esfuerzo de nuestro equipo de programación <em><strong>(yo)</strong></em>, utilizando únicamente el código de HTML y CSS para brindar una experiencia agradable por medio de Visual Studio Code.</p>
+            <p><em>Tip: Si no escuchas bien los detalles, intenta subir el volumen de tus audífonos (pero solo al 70% para evitar saturación!)</em></p>
+            <img src="audios_vids/img/pikaa.jpg" alt="Imagen tiernita" height="200px">
+
+        </aside>
+        <hr><br>
+    </section>
+
+    <footer>
+        <br><p>Simón Perdomo Suárez - Lenguajes Digitales</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
+
+<!--------------------------------------------------------------------------------------->
+
+<!--Muchas gracias, de verdad le metí resto, es verdad que para algunas cosas me apoyé con la IA pero,
+realmente todo el trabajo es hecho por mí, estuve trabajando en este proyecto a lo largo de la semana y
+trasnochándome en varias ocasiones para poder entregarlo, espero que haya gustado :) -->
+
 <!--------------------------------------------------------------------------------------->
